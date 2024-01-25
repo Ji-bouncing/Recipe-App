@@ -15,9 +15,7 @@ function fetchDish(){
       document.querySelector('section').style.display = 'block'
       document.querySelector('img').style.display = 'block'
       //create a list of ingredients
-          const li = document.createElement('li')
-          li.textContent = obj.strIngredient1
-          document.querySelector('ul').appendChild(li)
+         
 
      document.querySelector('#putRecipe').innerText = obj.strInstructions
 
