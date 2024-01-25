@@ -1,0 +1,114 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  clear:both;
+}
+html{
+  font-size:62.5%;
+}
+body{
+  background: orange;
+}
+main{
+background:white;
+height:50vh;
+width:80%;
+margin:5% auto;
+border-radius:5px;
+padding:2% 4%;
+ position: relative; 
+}
+#getDish{
+  float:right;
+  width:25%;
+  font-size:2rem;
+  color:black;
+  background:orange;
+  border-radius:4px;
+  border:none;
+  font-weight:400;
+  text-transform: uppercase;
+  margin:5% 1%;
+  padding:2% 3%;
+}
+input{
+  font-size:2rem;
+  margin:5% 0;
+  padding:2%;
+  border: none;
+  border-bottom:2px solid grey;
+}
+input:focus{
+  outline:none;
+}
+img{
+  display: none;
+  margin:1% auto;
+  width:200px;
+  border-radius:5px;
+  height:200px;
+}
+#viewRecipeInstruct{
+  font-size:2rem;
+  padding:2% 4%;
+  border:none;
+  background: orange;
+  font-weight:600;
+  border-radius:5px;
+  position: absolute;
+  bottom:10px;
+  right:10px;
+}
+#DishName{
+  text-align:center;
+  font-size:3rem;
+  margin:2% 0;
+  text-transform:capitalize;
+}
+h3{
+  text-align:center;
+  font-size:1.5rem;
+  text-transform: uppercase;
+  color: black;
+  font-weight:bold;
+}
+section{
+  background:orange;
+  border-radius:5px;
+  color:black;
+  padding:2% 3%;
+  display:none;
+}
+ul{
+  margin:5% 3% 0;
+  font-size:1.5rem;
+}
+ul li{
+  padding:2% 0
+}
+#putRecipe{
+  font-size:1.4rem;
+  text-indent:10px;
+  padding-top:5%;
+  overflow:auto;
+  line-height:2rem;
+  text-align:center;
+}
+section.recipePage{
+  display:block;
+  
+  
+}
+#recipeInto{
+  text-align:center;
+  font-size:2.5rem;
+  text-transform: uppercase;
+  font-weight:500;
+}
+p#putRecipe{
+  font-size:1.5rem;
+  font-weight:400;
+  line-height:2rem;
+  color: black;
+}
