@@ -18,6 +18,13 @@ function fetchDish(){
          
 
      document.querySelector('#putRecipe').innerText = obj.strInstructions
+     localStorage.setItem('Food',obj.strMeal)
+     if(!localStorage.getItem('Food')){
+       localStorage.setItem('obj.strMeal')
+     }else{
+            let food = localStorage.getItem('Food')
+  localStorage.setItem('food') + ' ; ' + obj.strMeal
+     }
 
     })
 
